@@ -1,16 +1,19 @@
-## Performance Insights Summary
+# Performance Insights
 
-The performance trace revealed several key insights into the page load performance of the analyzed URL.
+## Summary
 
-### Key Findings:
-- **Page Load Time**: The total page load time was recorded as 2.5 seconds.
-- **Core Web Vitals**: The page scored well on Core Web Vitals, with a good LCP (Largest Contentful Paint) of 1.8 seconds and a CLS (Cumulative Layout Shift) score of 0.05.
-- **Main Thread Activity**: The main thread was found to be moderately active during the page load, with a few long tasks observed.
+The performance trace revealed several key insights into the page load performance of the given URL.
 
-### Recommendations:
-1. **Optimize Images**: Compressing images could further reduce the page load time.
-2. **Minimize Main Thread Work**: Review and optimize JavaScript execution to reduce long tasks on the main thread.
-3. **Leverage Browser Caching**: Implement caching strategies for static resources to improve repeat visits.
+## Details
 
-### Conclusion:
-The page performed well overall, but there are opportunities for optimization to enhance user experience.
+1. **Page Load Time**: The page load time was recorded as X seconds.
+2. **Core Web Vitals**: The Core Web Vitals scores were as follows:
+   - LCP: Y seconds
+   - FID: Z milliseconds
+   - CLS: W
+
+## Recommendations
+
+1. **Optimize Images**: Compressing images can significantly reduce the page load time.
+2. **Minify CSS/JavaScript**: Minifying CSS and JavaScript files can reduce the overall size of the resources loaded.
+3. **Leverage Browser Caching**: Implementing proper caching strategies can reduce the number of requests made to the server.
